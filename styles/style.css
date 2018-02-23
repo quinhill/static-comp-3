@@ -1,66 +1,16 @@
+@import url("sidebar-styling.css");
+@import url("navbar-styling.css");
+@import url("header-styling.css");
+
 body{
   width: 100%;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: bolder;
-  color: #B3B3B3;
 }
 
-.profile-pic {
-  border-radius: 50%;
-  height: 80px;
-}
-
-.icons {
-  height: 15px;
-  width: 15px;
-  margin-right: 10px;
-}
-
-aside {
-  background-color: rgb(52, 64, 81);
-  width: 175px;
-  height: 100%;
+.sidebar-navbar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
 }
-
-.sidebar {
-  margin: 2vh 0 2vh 0;
-  border-top: 3px solid rgb(48, 57, 73);
-  border-right: 1px solid black;
-}
-
-.user {
-  display: flex;
-  justify-content: center;
-  
-}
-
-h3 {
-  margin: 30px 0 10px 20px;
-  font-size: 70%;
-  color: #808080;
-}
-
-a {
-  width: 132px;
-  height: auto;
-  text-decoration: none;
-  display: block;
-  color: #B3B3B3;
-  padding: 10px 20px 10px 20px;
-  font-size: 80%;
-}
-
-a:hover {
-  background-color: rgb(48, 57, 73);
-  border-left: 3px solid rgb(30,186,246);
-}
-
-#hr {
-  font-size: 75%;
-}
-
 
 
 
