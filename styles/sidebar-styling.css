@@ -1,0 +1,89 @@
+
+
+.icons {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+aside {
+  background-color: rgb(52, 64, 81);
+  height: 100%;
+  display: inline-block;
+  flex-direction: column;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bolder;
+  color: #B3B3B3;
+}
+
+.sidebar {
+  margin: 2vh 0 2vh 0;
+  border-top: 3px solid rgb(48, 57, 73);
+  border-right: 1px solid black;
+  width: 175px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.user {
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: rgb(52, 64, 81);
+  border: none;
+  color: #B3B3B3;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bolder;
+  font-size: 80%;
+  }
+
+.username:hover {
+  background-color: rgb(48, 57, 73);
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+  height: 12px;
+  width: auto;
+  padding-top: 2px;
+}
+
+h3 {
+  margin: 30px 0 10px 20px;
+  font-size: 70%;
+  color: #808080;
+}
+
+.sidebar-button {
+  width: 132px;
+  height: auto;
+  text-decoration: none;
+  display: block;
+  color: #B3B3B3;
+  padding: 10px 20px 10px 20px;
+  font-size: 80%;
+}
+
+a:hover {
+  background-color: rgb(48, 57, 73);
+  border-left: 3px solid rgb(30,186,246);
+}
+
+#hr {
+  font-size: 75%;
+}
