@@ -1,20 +1,45 @@
 header {
   font-family: 'Helvetica', sans-serif;
   font-weight: light;
-  padding: 8vh 5% 0 5%;
   color: rgb(105, 104, 109);
-  display: inline-block;
-  width: 70%;
+  display: grid;
+  width: (100% - 175px);
+  padding: 6vh 3% 0 3%;
 }
 
 h1 {
+  font-size: 140%;
+}
+
+.section-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-  font-size: 150%;
   justify-content: space-between;
 }
+
+.subheader-link-section {
+  margin-bottom: 6vh;
+  font-size: 80%;
+}
+
+.subheader-link {
+  text-decoration: none;
+}
+
+.sf {
+  color: rgb(169, 173, 180);
+}
+
+.preview {
+  color: rgb(116, 194, 239);
+}
+
+.header-text-section {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .header-buttons {
   display: flex;
@@ -23,26 +48,60 @@ h1 {
 }
 
 .header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  margin-left: 15px;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  border-width: 2px;
+  color: rgb(155, 159, 167);
+  font-size: 90%;
 }
 
 .open-button {
+  margin-right: 20px;
+  height: 40px;
   width: 120px;
   border-radius: 300px;
+  color: rgb(155, 159, 167)
+}
+
+.open-button:hover {
+  background-color: rgb(0, 165, 243);
+  color: white;
+}
+
+.icon-circle {
+  color: rgb(123, 188, 73);
 }
 
 .open-button-text {
   display: inline-block;
+  font-weight: bolder;
 }
 
-.dot {
-  height: 10px;
+.header-button:hover {
+  background-color: rgb(0, 165, 243);
+  color: white;
 }
 
-.header-icon {
-  height: 20px;
-  width: auto;
+.main-header {
+  display: grid;
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+}
+
+.link-main-header{
+  color: rgb(105, 104, 109);
+  text-decoration: none;
+  font-size: 80%;
+  font-weight: bolder;
+  padding-bottom: 2vh;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+}
+
+.link-main-header:hover {
+  border-bottom: 3px solid rgb(30, 186, 246);
 }

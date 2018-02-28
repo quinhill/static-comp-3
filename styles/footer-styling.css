@@ -1,0 +1,111 @@
+footer {
+  width: (100% - 175px);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 40px;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(109, 125, 146);
+  font-size: 80%;
+  font-weight: bolder;
+  background-color: rgb(236, 242, 245);
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 100px 1fr 1fr;
+  width: 90%;
+  background-color: white;
+}
+
+.table-header {
+  padding: 20px;
+  grid-column: 1/3;
+  background-color: rgb(109, 125, 146);
+  color: white;
+}
+
+.table-element {
+  margin: 20px;
+}
+
+.contact-social-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.linkedin-button,
+.twitter-button,
+.facebook-button {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook-button{
+  background-color: rgb(73, 114, 188);
+}
+
+.twitter-button {
+  background-color: rgb(0, 170, 234);
+}
+
+.linkedin-button {
+  background-color: rgb(0, 128, 184);
+}
+
+.social-icons {
+  font-size: 140%;
+  align-self: flex-start;
+}
+
+h2 {
+  font-size: 140%;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.input-form-footer-right {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 30px;
+  width: 100%
+}
+
+.input-footer-right {
+  width: 100%;
+  height: 100%;
+}
+
+.submit-footer-right {
+  height: 120%;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+  background-color: rgb(56, 189, 194);
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.input-footer-right::placeholder {
+  font-size: 140%;
+}
+
+hr {
+  margin: 20px 0px 20px 0px;
+}
+
+
+
+

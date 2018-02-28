@@ -1,17 +1,16 @@
 @import url("sidebar-styling.css");
 @import url("navbar-styling.css");
 @import url("header-styling.css");
+@import url("footer-styling.css");
+@import url("main-styling.css");
+@import url("mediaqueries.css");
+
 
 body{
   width: 100%;
+  display: grid;
+  grid-template-columns: 175px 1fr;
 }
-
-.sidebar-navbar {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
 
 
 

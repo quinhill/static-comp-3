@@ -1,4 +1,12 @@
-
+aside {
+  position: relative;
+  float: left;
+  background-color: rgb(52, 64, 81);
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bolder;
+  color: #B3B3B3;
+  width: 175px;
+}
 
 .icons {
   height: 15px;
@@ -6,21 +14,11 @@
   margin-right: 10px;
 }
 
-aside {
-  background-color: rgb(52, 64, 81);
-  height: 100%;
-  display: inline-block;
-  flex-direction: column;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: bolder;
-  color: #B3B3B3;
-}
-
 .sidebar {
   margin: 2vh 0 2vh 0;
   border-top: 3px solid rgb(48, 57, 73);
   border-right: 1px solid black;
-  width: 175px;
+  width: 174px;
 }
 
 .user {
@@ -79,7 +77,7 @@ h3 {
   font-size: 80%;
 }
 
-a:hover {
+.sidebar-button:hover {
   background-color: rgb(48, 57, 73);
   border-left: 3px solid rgb(30,186,246);
 }
