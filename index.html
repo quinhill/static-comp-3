@@ -5,9 +5,10 @@
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/fontello.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  <section class="sidebar-navbar">
+<body id="body">
   <aside>
     <section class="sidebar user">
       <img class="profile-pic" alt="Profile picture" src="images/profile-pic.jpg">
@@ -37,67 +38,212 @@
       <a class="sidebar-button" id="hr" href=""><img class="icons color-square" src="images/icons/square-green.png">Human Resources</a>
     </section>
   </aside>
-  <nav>
-    <button class="hamburger nav-button"><img class="arrow-left-icon" src="images/icons/arrow-left.png"><img class="hamburger-icon" src="images/icons/hamburger.png"></button>
-    <input class="search-input" type="text" name="search-bar" placeholder="Search for a job, task, or resume">
-    <button class="nav-button button-right"><img class="navbar-icon" id="navbar-icon" src="images/icons/add-contact.svg"></button>
-    <button class="nav-button button-right"><img class="navbar-icon" src="images/icons/add-calendar.png"></button>
-    <button class="nav-button button-right"><img class="navbar-icon" src="images/icons/num-pad.png"></button>
-  </nav>
-  </section>
-  <header>
-    <h1>Customer Service Representative
-    <a href=""></a>
-    <a href=""></a>
-    <div class="header-buttons">
-      <button class="header-button open-button"><img class="dot" src="images/icons/dot.svg"><div class="open-button-text">OPEN</div></button>
-      <button class="header-button"><img class="header-icon" src="images/icons/bookmark.svg"></button>
-      <button class="header-button"><img class="header-icon" src="images/icons/edit.svg"></button>
-      <button class="header-button"><img class="header-icon" src="images/icons/trash-can.svg"></button>
-    </div>
-    </h1>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
-  </header>
-  <main>
-    <section>
-      <div>
-        <img src="">
-        <img src="">
-        <img src="">
-      </div>
-      <button></button>
+  <section class="main-section">
+    <nav>
+      <button class="hamburger"><i class="icon-menu"></i></button>
+      <section class="search-icon"><i class="icon-search"></i></section>
+      <input class="search-input" type="text" name="search-bar" placeholder="Search for a job, task, or resume">
+      <button class="nav-button button-right"><i class="icon-user-plus"></i></button>
+      <button class="nav-button button-right"><i class="icon-calendar-plus-o"></i></button>
+      <button class="nav-button button-right"><i class="icon-th"></i></button>
+    </nav>
+    <header>
+      <section class="section-header">
+        <h1>Customer Service Representative</h1>
+        <div class="header-buttons">
+          <button class="open-button"><i class="icon-circle"></i><div class="open-button-text">OPEN</div>
+          </button>
+          <button class="header-button"><i class="icon-bookmark"></i></button>
+          <button class="header-button"><i class="icon-pencil"></i></button>
+          <button class="header-button"><i class="icon-trash"></i></button>
+        </div>
+      </section>
+      <section class="subheader-link-section">
+        <a class="subheader-link sf" href=""><i class="icon-location"></i>San Francisco, CA *</a>
+        <a class="subheader-link preview" href="">Preview this post</a>
+      </section>
+      <section class="main-header">
+        <a class="link-main-header" href="">SUMMARY</a>
+        <a class="link-main-header" href="">APPLICANTS</a>
+        <a class="link-main-header" href="">JOB BOARD</a>
+        <a class="link-main-header" href="">INTERVIEWS</a>
+        <a class="link-main-header" href="">ACTIVITY</a>
+        <a class="link-main-header" href="">BROADCAST</a>
+        <a class="link-main-header" href="">NOTIFICATIONS</a>
+      </section>
+    </header>
+    <main>
+      <section class="main-grid-section">
+        <figure class="first-circle-container">
+          <svg width="100%" height="100%" viewbox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#074080" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-number">
+              85%
+              </text>
+              <text x="50%" y="50%" class="chart-label">
+              Undetected
+              </text>
+            </g>
+          </svg>
+        </figure>
+        <figure class="second-circle-container">
+          <svg width="100%" height="100%" viewbox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#0F80FF" stroke-width="3" stroke-dasharray="60 40" stroke-dashoffset="0"></circle>
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-number">
+              60%
+              </text>
+              <text x="50%" y="50%" class="chart-label">
+              Shadowy
+              </text>
+            </g>
+          </svg>
+        </figure>
+        <figure class="third-circle-container">
+          <svg width="100%" height="100%" viewbox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#66CCFF" stroke-width="3" stroke-dasharray="90 10" stroke-dashoffset="0"></circle>
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-number">
+              90%
+              </text>
+              <text x="50%" y="50%" class="chart-label">
+              Sneak Attack
+              </text>
+            </g>
+          </svg>
+      </figure>
+        <section class="container vertical rounded">
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="one">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="two">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="three">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="four">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="five">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="six">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="seven">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="eight">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="nine">
+              </section>
+            </section>
+          </section>
+          <section class="progress-bar">
+            <section class="progress-track">
+              <section class="progress-fill" id="ten">
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="section-under-graph">
+        <section class="under-donut-graph">
+          <button class="main-donut-graph-button"><div>TOTAL SUCCESS RATES</TABLE></div></button>
+        </section>
+          <section class="under-line-graph">
+            <button class="main-line-graph-button"><div>OVER THE PAST 10 YEARS</div></button>
+          </section>
+      </section>
+    </main>
+    <section class="line">
+      <section class="section-line"><hr></section>
+      <button class="line-button"><i class="icon-angle-up"></i></button>
+      <section class="section-line"><hr></section>
     </section>
-    <section>
-      <img src="">
-      <button></button>
-    </section>
-  </main>
-  <section>
-    <article></article>
-  </section>
-  <section>
-    <button></button>
-    <button></button>
-    <button></button>
-    <h2>Link to this Job</h2>
-    <p></p>
-    <input type="text" name="job-link">
-    <button></button>
-    <hr>
-    <h2></h2>
-    <p></p>
-    <input type="text" name="social-link">
-    <button></button>
-    <hr>
-    <h2></h2>
-    <p></p>
-    <input type="" name="">
+    <footer>
+      <section class="table-container">
+        <section class="table-header">
+          JOB DESCRIPTION
+        </section>
+        <article class="table-element">POSITION TITLE</article>
+        <article class="table-element">Customer Service Representative</article>
+        <article class="table-element">LOCATION</article>
+        <article class="table-element">San Francisco, CA</article>
+        <article class="table-element">EMPLOYMENT TYPE</article>
+        <article class="table-element">Full-time</article>
+        <article class="table-element">EXPERIENCE</article>
+        <article class="table-element">Mid-level</article>
+        <article class="table-element">STATUS</article>
+        <article class="table-element">Open</article>
+        <article class="table-element">DESCRIPTION</article>
+        <article class="table-element">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle, helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</article>
+        <article class="table-element">HIRING LEAD</article>
+        <article class="table-element">Tom Tizzy</article>
+        <article class="table-element">APPROVED SALARY</article>
+        <article class="table-element">$58,000</article>
+      </section>
+      <section class="contact-social-section">
+        <button class="facebook-button"><i class="icon-facebook social-icons"></i>Post to Facebook</button>
+        <button class="twitter-button"><i class="icon-twitter social-icons"></i>Tweet this Job</button>
+        <button class="linkedin-button"><i class="icon-linkedin-squared social-icons"></i>Post to Linkedin</button>
+        <h2><i class="icon-globe"></i>Link to this Job</h2>
+        <p class="footer-text">I have to put some words in here, so I'll just write random stuff, thank youm please, hello, too slow...</p>
+        <form class="input-form-footer-right">
+        <input class="input-footer-right" type="text" name="job-link" placeholder="www.linktosomething.com/somenumbers9902847772/heloobaboom">
+        <button class="submit-footer-right" type="submit" value="copy">copy</button>
+        </form>
+        <hr>
+        <h2><i class="icon-camera-alt"></i>Use the Button Widget</h2>
+        <p class="footer-text">I have to put some words in here, so I'll just write random stuff, thank youm please, hello, too slow...</p>
+        <form class="input-form-footer-right">
+          <input class="input-footer-right" type="text" name="social-link" placeholder="www.linktosomething.com/somenumbers9902847772/heloobaboom">
+          <button class="submit-footer-right" type="submit" name="copy" value="copy">copy</button>
+        </form>
+        <hr>
+        <h2><i class="icon-paper-plane"></i>Upload Resumes by Email</h2>
+        <p class="footer-text">I have to put some words in here, so I'll just write random stuff, thank youm please, hello, too slow...</p>
+        <form class="input-form-footer-right">
+          <input class="input-footer-right" type="" name="" placeholder="www.linktosomething.com/somenumbers9902847772/heloobaboom">
+          <button class="submit-footer-right" type="submit" value="copy">copy</button>
+        </form>
+      </section>
+    </footer>
   </section>
 </body>
 </html>
